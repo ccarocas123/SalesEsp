@@ -80,6 +80,7 @@ namespace Sales.API.Data
                     }
                 });
             }
+            //aqui agregar categoria
 
             await _context.SaveChangesAsync();
         }
