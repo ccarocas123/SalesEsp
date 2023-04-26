@@ -12,8 +12,6 @@ namespace Sales.API.Data
         }
 
         public async Task SeedAsync()
-
-
         {
             await _context.Database.EnsureCreatedAsync();
             await CheckCountriesAsync();
